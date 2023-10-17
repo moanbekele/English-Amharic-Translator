@@ -1,1 +1,4 @@
 MLAR_env/
+averaged-10-epoch.pt
+model/iwslt-brnn2.s131_acc_62.71_ppl_7.74_e20.pt
+transformer-ende-wmt-pyOnmt.tar.gz
