@@ -27,9 +27,9 @@ def translate(source, translator, sp_source_model, sp_target_model):
 
 
 # [Modify] File paths here to the CTranslate2 SentencePiece models.
-ct_model_path = "/path/to/the/ctranslate/model/directory"
-sp_source_model_path = "/path/to/the/sentencepiece/source/model/file"
-sp_target_model_path = "/path/to/the/sentencepiece/target/model/file"
+ct_model_path = "new_ctranslate2"
+sp_source_model_path = "source.model"
+sp_target_model_path = "target.model"
 
 # Create objects of CTranslate2 Translator and SentencePieceProcessor to load the models
 translator = ctranslate2.Translator(ct_model_path, "cpu")    # or "cuda" for GPU
