@@ -17,5 +17,10 @@ pip3 install -r requirements.txt
 With [translate.py](translate.py), you can run a fast web translator using CTranslate2. For this  to work, you have to change the paths to your models; search the code for [Modify] and adjust the following lines.
 
 
+## Training And Data Preparation
+* Dataset Preparation and Processing ([notebook](https://colab.research.google.com/drive/1pXa7TpQ87xtlY1htkq3oANU5zlXky1Ll?usp=sharing#scrollTo=2KjicHTBWlt9))
+* Training and Streamlit Interface ([notebook](https://colab.research.google.com/drive/1hBv_2f6DEXDDQxKvW4JWxVoR6nScNVlY?usp=sharing))
+
+
 
 
